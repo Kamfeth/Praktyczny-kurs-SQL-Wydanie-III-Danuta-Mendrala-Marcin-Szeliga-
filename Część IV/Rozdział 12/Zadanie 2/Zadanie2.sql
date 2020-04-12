@@ -3,11 +3,11 @@ CREATE TABLE Autorzy (
    Imię VARCHAR(15) NOT NULL,
    Nazwisko VARCHAR(45) NOT NULL)
 
-CREATE TABLE Ksišżki (
-   IDKsišżki INT IDENTITY PRIMARY KEY,
+CREATE TABLE Książki (
+   IDKsiążki INT IDENTITY PRIMARY KEY,
    Tytuł VARCHAR(100) NOT NULL,
    DataWydania DATE NOT NULL)
 
-CREATE TABLE AutorzyKsišżki (
+CREATE TABLE AutorzyKsiąki (
    IDAutora INT REFERENCES Autorzy,
-   IDKsišżki INT REFERENCES Ksišżki)
+   IDKsiążki INT REFERENCES Książki)
