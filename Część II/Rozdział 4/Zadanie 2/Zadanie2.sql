@@ -1,0 +1,4 @@
+SELECT TOP 5 PERCENT WITH TIES SalesOrderID, Freight
+FROM SalesLT.SalesOrderHeader
+WHERE OrderDate BETWEEN '20080701' AND '20081231'
+ORDER BY Freight

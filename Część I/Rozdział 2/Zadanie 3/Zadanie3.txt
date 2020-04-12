@@ -1,0 +1,1 @@
+Tak. Jako przykład można podać metodę ataku SQL Injection.

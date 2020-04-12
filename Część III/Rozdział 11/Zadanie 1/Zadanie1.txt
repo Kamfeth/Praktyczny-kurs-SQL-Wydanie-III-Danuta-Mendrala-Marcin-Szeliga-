@@ -1,0 +1,1 @@
+Poprawność wyników raportu można zagwarantować poprzez skopiowanie odpowiednich danych do nowych, osobnych tabel na których możemy pracować wydajniej.

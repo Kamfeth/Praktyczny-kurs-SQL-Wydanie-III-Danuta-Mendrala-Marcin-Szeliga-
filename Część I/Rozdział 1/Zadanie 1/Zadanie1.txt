@@ -1,0 +1,4 @@
+Płyty {idPłyty, idWykonawcy, idGatunku, czasTrwania, opinia}
+Wykonawcy {idWykonawcy, idKraju ,nazwaWykonawcy}
+Gatunki {idGatunku, nazwaGatunku}
+Kraje {idKraju, nazwaKraju}

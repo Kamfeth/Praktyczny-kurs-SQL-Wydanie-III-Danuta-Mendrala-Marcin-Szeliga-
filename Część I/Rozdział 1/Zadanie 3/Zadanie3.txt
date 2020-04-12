@@ -1,0 +1,15 @@
+Pierwsza postać normalna:
+
+Uczniowie {idUcznia, imię, nazwisko, miasto, ulica, kodPocztowy, ocena, dataWystawieniaOceny, uwagi}
+
+Druga postać normalna:
+
+Uczniowie {idUcznia, idAdresu, imię, nazwisko, ocena, dataWystawieniaOceny, uwagi}
+Adresy {idAdresu, miasto, ulica, kodPocztowy}
+
+Trzecia postać normalna:
+
+Uczniowie {idUcznia, idAdresu, imię, nazwisko, uwagi}
+Adresy {idAdresu, miasto, ulica, kodPocztowy}
+Oceny {idOceny, ocena}
+UczniowieOceny {idUcznia, idOceny, dataWystawieniaOceny}

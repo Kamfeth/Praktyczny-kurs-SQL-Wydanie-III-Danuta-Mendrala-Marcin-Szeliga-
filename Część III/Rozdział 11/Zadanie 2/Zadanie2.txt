@@ -1,0 +1,1 @@
+Najbardziej prawdopodobną przyczyną tego problemu jest program kliencki, który jawnie rozpoczął transakcję, jeszcze zanim użytkownik wprowadził wszystkie niezbędne dane potrzebne do zakończenia transakcji.

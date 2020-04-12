@@ -1,0 +1,13 @@
+CREATE TABLE Autorzy (
+   IDAutora INT IDENTITY PRIMARY KEY,
+   Imię VARCHAR(15) NOT NULL,
+   Nazwisko VARCHAR(45) NOT NULL)
+
+CREATE TABLE Ksišżki (
+   IDKsišżki INT IDENTITY PRIMARY KEY,
+   Tytuł VARCHAR(100) NOT NULL,
+   DataWydania DATE NOT NULL)
+
+CREATE TABLE AutorzyKsišżki (
+   IDAutora INT REFERENCES Autorzy,
+   IDKsišżki INT REFERENCES Ksišżki)

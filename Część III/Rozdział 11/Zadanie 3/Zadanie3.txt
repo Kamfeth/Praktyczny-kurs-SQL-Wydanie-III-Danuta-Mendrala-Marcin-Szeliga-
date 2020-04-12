@@ -1,0 +1,1 @@
+Aby rozwiązać ten problem, należy przed próbą połączenia się ze zdalnym serwerem zapisać stan transakcji za pomocą punktu przywracania.

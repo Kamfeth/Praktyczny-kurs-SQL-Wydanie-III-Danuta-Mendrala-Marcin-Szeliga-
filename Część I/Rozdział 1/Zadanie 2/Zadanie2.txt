@@ -1,0 +1,5 @@
+Tabele należy przekształcić w następujący sposób:
+
+Autorzy {idAutora, imię, nazwisko}
+Książki {idKsiążki, tytuł}
+AutorzyKsiążki {idAutora, idKsiążki}
