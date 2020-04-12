@@ -8,6 +8,6 @@ CREATE TABLE Książki (
    Tytuł VARCHAR(100) NOT NULL,
    DataWydania DATE NOT NULL)
 
-CREATE TABLE AutorzyKsiąki (
+CREATE TABLE AutorzyKsiążki (
    IDAutora INT REFERENCES Autorzy,
    IDKsiążki INT REFERENCES Książki)
