@@ -1,0 +1,13 @@
+CREATE TABLE Autorzy (
+   IDAutora INT IDENTITY PRIMARY KEY,
+   Imię VARCHAR(15) NOT NULL,
+   Nazwisko VARCHAR(45) NOT NULL)
+
+CREATE TABLE Książki (
+   IDKsiążki INT IDENTITY PRIMARY KEY,
+   Tytuł VARCHAR(100) NOT NULL,
+   DataWydania DATE NOT NULL)
+
+CREATE TABLE AutorzyKsiążki (
+   IDAutora INT REFERENCES Autorzy,
+   IDKsiążki INT REFERENCES Książki)
