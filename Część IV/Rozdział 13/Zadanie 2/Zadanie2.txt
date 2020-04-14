@@ -1,0 +1,1 @@
+Nie, ponieważ w zapytaniu występuje słowo kluczowe DISTINCT.
