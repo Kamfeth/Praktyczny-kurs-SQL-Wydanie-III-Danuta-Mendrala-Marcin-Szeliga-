@@ -1,0 +1,1 @@
+Niemożliwe jest wykonanie tego zadania, ponieważ występują powtarzające się wartości w kolumnach SalesOrderID oraz UnitPrice.
