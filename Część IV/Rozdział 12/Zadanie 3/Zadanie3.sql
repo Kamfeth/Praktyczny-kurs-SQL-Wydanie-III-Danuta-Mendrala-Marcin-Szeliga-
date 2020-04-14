@@ -1,4 +1,4 @@
--- Powiedziałbym koledze, że jego pomysł nie jest najlepszy, ponieważ zapisywanie na stałe listy poprawnych nazw modeli w ograniczeniu, może drastycznie wpłynšć na obniżenie wydajnoci bazy danych. Stanie się tak kiedy będziemy chcieli zmienić listę zatwierdzonych modeli, wtedy wymagana będzie zmiana struktury tabeli.
+-- Powiedziałbym koledze, że jego pomysł nie jest najlepszy, ponieważ zapisywanie na stałe listy poprawnych nazw modeli w ograniczeniu, może drastycznie wpłynąć na obniżenie wydajności bazy danych. Stanie się tak kiedy będziemy chcieli zmienić listę zatwierdzonych modeli, wtedy wymagana będzie zmiana struktury tabeli.
 
 CREATE TABLE Produkcja.Modele (Nazwa VARCHAR(5) PRIMARY KEY)
 INSERT INTO Produkcja.Modele VALUES ('BRAK!')
