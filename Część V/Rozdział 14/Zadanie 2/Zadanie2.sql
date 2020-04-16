@@ -1,0 +1,4 @@
+GRANT CONTROL
+ON dbo.BuildVersion
+TO Marcin
+WITH GRANT OPTION
